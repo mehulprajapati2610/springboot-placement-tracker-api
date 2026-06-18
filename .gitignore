@@ -1,24 +1,30 @@
-### IntelliJ ###
+# IntelliJ IDEA
 .idea/
 *.iml
+out/
 
-### Maven ###
+# Maven
 target/
 
-### Logs ###
+# Logs
 *.log
 
-### OS Files ###
+# OS files
 .DS_Store
 Thumbs.db
 
-### Environment ###
+# VS Code
+.vscode/
+
+# Environment & Local Config
 .env
 application-local.properties
 
-### VS Code ###
-.vscode/
+# Spring Boot
+spring.log
 
-### Mac ###
-.AppleDouble
-.LSOverride
+# Test files
+*.http
+
+# Generated files
+*.class
